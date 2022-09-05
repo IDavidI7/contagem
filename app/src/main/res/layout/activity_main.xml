@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/um"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 em 1" />
+
+            <Button
+                android:id="@+id/dois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 em 2" />
+
+            <Button
+                android:id="@+id/trez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 em 3" />
+
+            <Button
+                android:id="@+id/quatro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 em 4" />
+
+            <Button
+                android:id="@+id/cinco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 em 5" />
+
+            <Button
+                android:id="@+id/seis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6 em 6" />
+
+            <Button
+                android:id="@+id/sete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 em 7" />
+
+            <Button
+                android:id="@+id/oito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 em 8" />
+
+            <Button
+                android:id="@+id/nove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 em 9" />
+
+            <Button
+                android:id="@+id/dez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 em 10" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="156sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/botaomenos"
+            android:layout_width="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_height="wrap_content"
+            android:text="@string/menos"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/botaozera"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_toEndOf="@id/botaomenos"
+            android:text="@string/zera" />
+
+        <Button
+            android:id="@+id/botaomais"
+            android:layout_width="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/botaozera"
+            android:text="@string/mais"
+            android:textSize="60sp" />
+
+    </RelativeLayout>
+</LinearLayout>
