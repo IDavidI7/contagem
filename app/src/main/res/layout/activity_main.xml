@@ -18,16 +18,19 @@
                 android:id="@+id/um"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1 em 1" />
+                android:text="1 em 1"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/dois"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2 em 2" />
+                android:text="2 em 2"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/trez"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3 em 3" />
@@ -36,43 +39,50 @@
                 android:id="@+id/quatro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4 em 4" />
+                android:text="4 em 4"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/cinco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5 em 5" />
+                android:text="5 em 5"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/seis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="6 em 6" />
+                android:text="6 em 6"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/sete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7 em 7" />
+                android:text="7 em 7"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/oito"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="8 em 8" />
+                android:text="8 em 8"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/nove"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="9 em 9" />
+                android:text="9 em 9"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/dez"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10 em 10" />
+                android:text="10 em 10"
+                style="?android:attr/buttonBarButtonStyle" />
         </LinearLayout>
 
     </HorizontalScrollView>
